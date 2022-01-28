@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.table {
+  width: 60%;
+  margin: 10px;
+  border-collapse: collapse;
+}
+
+.table-heading {
+  padding: 10px;
+}
+
+.table-student {
+  padding: 10px;
+}
+
+.button-action {
+}
+
+.table-student-button {
+  display: inline-block;
+  font-size: 15px;
+  padding: 2px;
+  margin: 5px;
+  width: 30%;
+  border-radius: 2px;
+  background-color: transparent;
+  border-color: #ddd;
+}
